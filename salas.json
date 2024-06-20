@@ -1,0 +1,26 @@
+{
+    "salas": [
+        {
+            "id": "Sala Roble",
+            "nombre": "Sala Roble",
+            "capacidad": 5,
+            "precio": 5000,
+            "imagen": "img/sala-a.jpg"
+        },
+        {
+            "id": "Sala Alamo",
+            "nombre": "Sala Alamo",
+            "capacidad": 10,
+            "precio": 12000,
+            "imagen": "img/sala-b.jpg"
+        },
+        {
+            "id": "Sala Amanecer",
+            "nombre": "Sala Amanecer",
+            "capacidad": 20,
+            "precio": 18000,
+            "imagen": "img/sala-c.jpg"
+        }
+    ]
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arriendo de Salas de Reuniones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Salas de Reuniones</h1>
+        <p>Todas nuestra salas cuentan con Aire Acondicionado, WIFI gratuito, TV y cafeteria de especialidad.</p>
+    </header>
+    <main>
+        <section id="salas-lista">
+            <h2>Salas Disponibles</h2>
+            <div id="salas"></div>
+        </section>
+        <section id="formulario">
+            <h2>Reserva tu Sala</h2>
+            <form id="reserva-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="sala">Sala:</label>
+                <select id="sala" name="sala" required></select>
+                
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+                
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+                
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+        <section id="reservas">
+            <h2>Reservas Actuales</h2>
+            <ul id="lista-reservas"></ul>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
