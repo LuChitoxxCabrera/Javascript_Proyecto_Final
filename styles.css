@@ -135,7 +135,7 @@ section {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 400px) and (max-width: 900px) {
     .sala {
         width: auto;
     }
